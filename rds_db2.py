@@ -4,7 +4,7 @@ Created on Sat Jul 25 13:34:18 2020
 @author: hp
 """
 
-import pymysql
+import pymysql import connections
 '''import aws_credentials as rds'''
 conn = pymysql.connect(
         host= 'project.c5vtlj5giomh.us-east-2.rds.amazonaws.com', #endpoint link
